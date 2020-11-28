@@ -5,7 +5,7 @@ FactoryBot.define do
         level { FFaker::Random.rand(1..99) }
     end
 
-    trait :with_invalid_level do
+    trait :with_invalid_user_level do
         level { FFaker::Random.rand(100..999) }
     end
 end
